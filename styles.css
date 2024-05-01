@@ -111,6 +111,66 @@ body {
 .product-toys-button:hover {
     background-color: #0056b3;
 }
+/* Contact pane styles */
+.contact-pane {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.contact-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #543b28; /* Brown color */
+}
+
+.contact-form {
+    margin-bottom: 20px;
+}
+
+.contact-label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+    color: #543b28; /* Brown color */
+}
+
+.contact-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-message {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-button {
+    background-color: #3498db; /* Sail color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #2980b9; /* Darker Sail color */
+}
 
 /* Footer styles */
 .footer {
