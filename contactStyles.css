@@ -1,51 +1,77 @@
-/* Contact pane styles */
-.contact-pane {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
-    margin: 50px auto;
-    max-width: 600px;
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2rem;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px 0;
 }
 
 .contact-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #543b28; /* Brown color */
+    color: #333;
 }
 
 .contact-form {
-    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .contact-label {
-    font-size: 1.2rem;
     display: block;
+    font-size: 1.2rem;
     margin-bottom: 5px;
-    color: #543b28; /* Brown color */
+    color: #333;
 }
 
 .contact-input {
     width: 100%;
     padding: 10px;
-    font-size: 1rem;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.contact-message {
-    width: 100%;
-    height: 150px;
-    padding: 10px;
     font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
 }
 
 .contact-button {
-    background-color: #3498db; /* Sail color */
+    background-color: #333;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -56,5 +82,17 @@
 }
 
 .contact-button:hover {
-    background-color: #2980b9; /* Darker Sail color */
+    background-color: #666;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 1rem;
 }
