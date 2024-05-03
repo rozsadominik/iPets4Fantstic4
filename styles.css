@@ -24,11 +24,14 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 20px 0;
     text-align: center;
+    width: 100%; /* Maintain previous width */
+    height: 60px; /* Maintain previous height */
 }
 
 .nav {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .nav-link {
@@ -111,6 +114,7 @@ body {
 .product-toys-button:hover {
     background-color: #0056b3;
 }
+
 /* Dropdown styles */
 .dropdown {
     position: relative;
@@ -148,6 +152,7 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 /* Footer styles */
 .footer {
     background-color: #fff;
