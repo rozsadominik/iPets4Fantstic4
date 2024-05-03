@@ -21,11 +21,11 @@ body {
 /* Header styles */
 .header {
     background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #ddd; /* Increased border thickness */
     padding: 20px 0;
     text-align: center;
-    width: 100%; /* Maintain previous width */
-    height: 60px; /* Maintain previous height */
+    width: 100%;
+    height: 60px;
 }
 
 .nav {
